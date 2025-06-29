@@ -11,7 +11,6 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 min-h-screen flex items-center justify-center p-6">
-
   <div class="bg-white shadow-md rounded-lg p-8 w-full max-w-md">
     <h1 class="text-3xl font-bold mb-6 text-center">Todo List</h1>
 
@@ -34,7 +33,7 @@
     <ul>
       <?php foreach ($tasks as $task): ?>
         <li
-          class="flex justify-between items-center bg-blue-50 rounded-md p-3 mb-2 shadow-sm"
+          class="flex justify-between items-center bg-blue-50 rounded-md p-4 mb-2 shadow-sm"
         >
           <span><?= htmlspecialchars($task['title']) ?></span>
           <a
